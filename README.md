@@ -97,4 +97,5 @@ python consumer.py
 
 ## References 
 * [How to Install Apache Kafka on Windows WSL 2?](https://dcrunch.dev/blog/kafka/set-up-and-run-apache-kafka-on-windows-wsl-2/)
+* [Run Kafka on Windows](https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/)
 * https://downloads.apache.org/kafka/2.8.0/kafka_2.13-2.8.0.tgz
