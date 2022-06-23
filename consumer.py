@@ -21,8 +21,11 @@ print("~~~~~~~~~~~ Waiting for producer to publish ~~~~~~~~~~~")
 # Read and print message from consumer
 try:
     for msg in consumer:
-        print("###########Message received##############")
-        print(msg.topic, msg.value)
+        # Print message
+        print("\n********** Message received **********")
+        print("Topic: ", msg.topic)
+        print("Partiton: ", msg.partition)
+        print("Message: ", msg.value)
 
         print("\n~~~~~~~~~~~ Waiting for producer to publish ~~~~~~~~~~~")
 except KeyboardInterrupt:
