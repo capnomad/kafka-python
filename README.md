@@ -85,7 +85,12 @@ bin/kafka-server-start.sh config/server.properties
 
 ## Run Python producer and consumer
 
-Install Python 3 and run below commands in different terminal windows
+Install Python 3 and requirements
+```
+pip install -r requirements.txt
+```
+
+And run below commands in different terminal windows
 
 ```
 python producer.py
