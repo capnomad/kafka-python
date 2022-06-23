@@ -24,7 +24,7 @@ while True:
         ack = producer.send(topicName, bytes(msg, 'utf8'))
 
         # Print message
-        print("######Message Sent#########")
+        print("********** Message Sent **********")
         metadata = ack.get()
         print("Topic: ", metadata.topic)
         print("Partiton: ", metadata.partition)
